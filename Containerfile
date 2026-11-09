@@ -1,6 +1,6 @@
 FROM docker.io/alpine:3 AS build
 ARG TARGETARCH
-ARG TERRAMATE_VERSION=0.17.1
+ARG TERRAMATE_VERSION=0.17.4
 
 RUN apk add curl ca-certificates tar gzip
 
